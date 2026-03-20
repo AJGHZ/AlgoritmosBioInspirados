@@ -2,10 +2,10 @@ import numpy as np
 import random
 
 # PARAMETROS DEL AGORITMO
-POPULATION_SIZE = 500 #Cantidad de tableros en cada generacion
+POPULATION_SIZE = 5000 #Cantidad de tableros en cada generacion
 MUTATION_RATE = 0.2 #Probabilidad de mutacion
-ELITISM_COUNT = 50 #Cantidad de mejores individuos que se mantienen en la siguiente generacion
-MAX_GENERATIONS = 1000 #Cantidad maxima de generaciones
+ELITISM_COUNT = 100 #Cantidad de mejores individuos que se mantienen en la siguiente generacion
+MAX_GENERATIONS = 10000 #Cantidad maxima de generaciones
 
 print(f'Taza de mutación actual : {MUTATION_RATE}')
 
